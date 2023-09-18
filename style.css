@@ -1,0 +1,610 @@
+body{
+    background-color: #eff2f1;
+}
+
+/* start navbar  */
+
+
+.navbar{
+    background-color: #3b5d50 ;
+}
+.navbar .content{
+    width: 70%;
+}
+.navbar .navbar-brand{
+    color:#f9f9f9;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+span{
+    color:#899e96;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #f9f9f9;
+    border-bottom: 5px solid #f9bf29;
+    
+}
+.navbar-nav .icon{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav .icon img{
+   margin-right: 20px;
+}
+.navbar-nav .nav-link{
+    color:#899e96;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-nav .nav-link:hover{
+    color: #f9f9f9;
+    border-bottom: 5px solid #f9bf29;
+    
+}
+/* end navbar  */
+
+/* start section 1  */
+.content_2{
+    background-color: #3b5d50;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_2 .container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 380px;
+}
+.content_2 .container .row .p1{
+    padding-top: 40px;
+
+}
+.content_2 .container .row .p1 h3{
+    color: #f9f9f9;
+    font-size: 53px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content_2 .container .row .p1 p{
+    color: #899e96;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.content_2 .container .row .p1 .btns .btn1{
+    padding: 9px 25px;
+    border: #f9bf29;
+    border-radius: 21px;
+    background-color: #f9bf29;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.content_2 .container .row .p1 .btns .btn1:hover{
+    background-color: #e8b025;
+}
+.content_2 .container .row .p1 .btns .btn2{
+    padding: 9px 25px;
+    border:#8e8d8d 2px solid;
+    color: #f9f9f9;
+    border-radius: 21px;
+    background-color:#3b5d50;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.content_2 .container .row .p1 .btns .btn2:hover{
+    border: #f9f9f9 2px solid;
+}
+
+.content_2 .container .row .couch .img2{
+     width: 280px;
+     position: relative;
+     bottom: 500px;
+     left: 680px;
+}
+.content_2 .container .row .couch .img1{
+    width: 750px;
+    margin-left: 180px;
+     position: relative;
+    z-index: 999;
+}
+/* end section 1  */
+
+
+
+/* start section 2  */
+
+.chairs{
+    width: 100%;
+    height: 600px; ;
+    margin: 80px 0;
+    position: relative;
+  
+}
+.chairs .container{
+    margin-top: 30px;
+}
+.chairs .container .row .view_ch h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.chairs .container .row .view_ch p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.chairs .container .row .view_ch button{
+    padding: 9px 25px;
+    color: #f9f9f9;
+    border-radius: 21px;
+    background-color:#1f382f;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.chairs .container .row .view_ch button:hover{
+    background-color: #1f372d;
+}
+
+.product-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease-out;
+    z-index: 999;
+}
+.product-item img{
+    width: 290px;
+   transition: transform 0.3s ease-in-out;
+}
+.product-item .product-title{
+    font-size: 15px;
+    color: #000;
+    margin-top: 10px;
+   
+}
+.product-item .product-price{
+    color: #000;
+    font-size: 18px;
+}
+
+
+.product-item:hover img{
+ transform: scale(1.1) ;
+}
+.product-item:hover .back-product{
+    visibility: visible;
+    bottom: 180px;
+    height: 240px;
+}
+.product-item:hover .icon-cross{
+    visibility: visible;
+    
+}
+.product-item .back-product{
+    width: 300px;
+    box-sizing: border-box;
+    height:0px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -310px;
+    background-color:#d4e3e2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+    visibility: hidden;
+    transition: height 0.3s ease-in-out;
+    
+}
+.icon-cross{
+    height: 35px;
+    width: 35px;
+    background-color:#2f2f2f;
+     visibility: hidden;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 160px;
+    
+}  
+.icon-cross .img-fluid{
+    padding: 7px;
+}
+
+
+
+
+
+
+/* end section 2  */
+
+
+
+/* start section 3  */
+
+
+
+
+.sec_3{
+    width: 100%;
+    height: 600px;
+   
+}
+
+.sec_3 .container .row .sec3-title{
+    margin-bottom: 65px;
+}
+.sec_3 .container .row .sec3-title h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.sec_3 .container .row .sec3-title p{
+   color: #8e8d8d;
+}
+.sec_3 .container .row .sec3-subtitle {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec_3 .container .row .sec3-subtitle img{
+     width: 50px;
+}
+.sec_3 .container .row .sec3-subtitle strong{
+    color: #5a5a5a;
+    font-weight: 500;
+}
+
+.sec_3 .container .row .sec3-subtitle p{
+    color: #8e8d8d;
+
+}
+.images-sec3 .yellow-dots{
+    width: 280px;
+  position: absolute;
+    bottom: -410px;
+
+}
+.images-sec3 .img3-dots{
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    right: 290px;
+}
+
+/* end section 3  */
+
+/* start section 4  */
+
+.sec_4{
+    width: 100%;
+    height: 800px;
+    margin-top: 170px;
+    
+}
+.sec_4 .container .row .collection-grid .dots-green{
+    width: 270px;
+    position: absolute;
+    left: 190px;
+    bottom: -1210px;
+}
+.sec_4 .container .row .collection-grid .img-grid1{
+    width: 500px;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+.sec_4 .container .row .collection-grid .img-grid2{
+    width: 230px;
+    position: absolute;
+    left: 790px;
+    border-radius: 20px;
+}
+.sec_4 .container .row .collection-grid .img-grid3{
+    width: 380px;
+    border-radius: 20px;
+    position: absolute;
+    left: 640px;
+    top: 2320px;
+}
+
+
+.sec_4-part2 h3{
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sec_4-part2 p{
+    font-size: 15px;
+    color: #8e8d8d;
+    line-height: 28px;
+}
+
+
+.sec_4-part2 .row .col-lg-6 li{
+    font-size: 15px;
+    color: #8e8d8d;
+    margin-bottom: 15px;
+
+}
+
+.view_ch button{
+    padding: 9px 25px;
+    color: #f9f9f9;
+    border-radius: 21px;
+    background-color:#1f382f;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.3s;
+}
+ .view_ch button:hover{
+    background-color: #1f372d;
+}
+
+
+/* end section 4  */
+
+/* start section 5  */
+
+.sec_5{
+ width: 100%;
+ height: 300px;
+}
+
+.sec_5 .container .row .sec_5-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec_5 .container .row .sec_5-bar img{
+    width: 120px;
+    background-color:#dce5e4 ;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.sec_5 .container .row .sec_5-bar p{
+    color: #8e8d8d;
+}
+.sec_5 .container .row .sec_5-bar a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.sec_5 .container .row .sec_5-bar a:hover{
+    color: #8e8d8d;
+}
+/* end section 5  */
+
+
+/* start section 6  */
+
+
+.sec_6{
+    width: 100%;
+    height: 700px;
+    
+}
+
+.sec_6 .container h2{
+  display: flex;
+  align-items: center;
+   justify-content: center;
+   font-size: 37px;
+   font-weight: 450;
+   color:#2f2f2f;
+
+}
+.sec_6 .carousel{
+    margin: auto;
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+
+.sec_6 .container .carousel .carousel-inner .carousel-caption strong{
+    color: #8e8d8d;
+    line-height: 38px;
+    font-size: 18px;
+   font-weight: 400;
+   position: absolute;
+     right: 100px;
+     position: absolute;
+     bottom: 280px;
+    color: #5a5a5a;
+     font-size: 20px;
+}
+.sec_6 .container .carousel .carousel-inner .carousel-caption img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+    
+  }
+ 
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+
+  .carousel-item {
+    height: 32rem;
+   
+  }
+
+.carousel-caption img{
+    border-radius: 50px;
+    width: 2px;
+}
+/* end section 6  */
+
+
+/* start section 7  */
+
+.sec_7{
+    width: 100%;
+    height: 800px;
+}
+.sec_7-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.sec_7-bar a{
+    color: #2f2f2f;
+    font-weight: 500;
+}
+.sec_7-bar a:hover{
+    text-decoration: none;
+}
+.recent-blog img{
+    width: 425px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+.recent-blog img:hover{
+    opacity: 0.6;
+}
+.recent-blog a{
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* end section 7  */
+
+
+/* start footer */
+
+.footer{
+    background-color:#fff;
+    height: 650px;
+    position: relative;
+}
+.sofa img{
+    width: 400px;
+    position: absolute;
+   right: 260px;
+   bottom: 520px;
+}
+
+
+.py-5 .form-control{
+    padding:15px 20px;
+    text-align: left;
+}
+.text-footer{
+    margin-right: 80px;
+}
+.text-footer h5{
+    color: #1f382f;
+    font-size: 32px;
+}
+.text-footer p{
+    font-size: 16px;
+    color: #8e8d8d;
+}    
+.part-footer {
+    margin-right: 100px;
+}    
+.part-footer h1{
+    
+    color:#3b5d50;
+}    
+
+.part-footer .nav .nav-item .nav-link{
+    line-height: 30px;
+}
+.parts-footer{
+    padding-top: 60px;
+}
+
+
+
+
+
+/* end footer */
+
+
+/*      </section>
+/----/ <section class="footer">
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+ </section>*/
